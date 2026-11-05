@@ -278,6 +278,9 @@ h2 {
   position: relative;
   display: flex;
   align-items: center;
+  padding-top: 120px;
+  padding-bottom: 32px;
+  box-sizing: border-box;
   color: var(--mist);
   background: linear-gradient(
     180deg,
@@ -312,7 +315,7 @@ h2 {
   animation: rise 1.4s cubic-bezier(0.2, 0.7, 0.2, 1) both;
 }
 .hero-sub {
-  font-size: 2rem;
+  font-size: clamp(1.2rem, 4.5vw, 2rem);
   margin-bottom: 8px;
 }
 .hero-title {
