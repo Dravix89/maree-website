@@ -320,6 +320,17 @@ h2 {
   color: var(--ink);
 }
 
+@media (max-width: 768px) {
+  .btn-light,
+  .btn-line,
+  .btn-ink,
+  .btn-sub {
+    display: block;
+    width: fit-content;
+    margin-inline: auto;
+  }
+}
+
 /* Hero : l'horizon de la palette */
 .hero {
   min-height: 100svh;
